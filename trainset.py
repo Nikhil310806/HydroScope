@@ -13,7 +13,7 @@ import joblib
 
 
 
-df = pd.read_csv(r"C:\Users\sathv\Desktop\pythonml\Telangana_Realistic_Borewell_Dataset.csv")
+df = pd.read_csv(r"")
 
 X = df.drop(columns=["Required_Bore_Depth (m)","Aquifer_Type"])
 y = df["Required_Bore_Depth (m)"]
